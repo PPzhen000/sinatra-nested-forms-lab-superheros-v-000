@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require_relative 'config/environment.rb'
+require './config/environment.rb'
 
 class App < Sinatra::Base
 
